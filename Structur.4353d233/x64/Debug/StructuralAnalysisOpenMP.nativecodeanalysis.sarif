@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33141.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/structuralanalysisopenmp.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e5678160ae9427b972ce958fca6434725dfb2701f5a61e860f5831abc64b4e00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/delaunaytriangulationopenmp.h"
+          },
+          "hashes": {
+            "sha-256": "dc11e6384d829572a4b50c14aee1c3b74d190905f3cb42592f97ece727140e89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/stiffnessmatrixassembleropenmp.h"
+          },
+          "hashes": {
+            "sha-256": "29309cb9ead72185ddd679d7d0bf7bf69003638646f6555dfa9a86ba66f028ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/boundaryconditionsopenmp.h"
+          },
+          "hashes": {
+            "sha-256": "80f3dd51c3cd1371543f84c0a6380db0f9042666b6160653cff4c900f9e4302a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/solveropenmp.h"
+          },
+          "hashes": {
+            "sha-256": "43b8c8a0879341e4c6e83aeb7d9611e80f96c22f8aac5f5fd074f5446225c434"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/postprocessoropenmp.h"
+          },
+          "hashes": {
+            "sha-256": "df1273b39321528343391831af196cfbbd4b25e63ef044fa1d0a09833f095fcd"
+          }
+        }
+      ]
+    }
+  ]
+}

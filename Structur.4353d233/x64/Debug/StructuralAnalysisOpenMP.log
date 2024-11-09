@@ -1,0 +1,4 @@
+﻿  StructuralAnalysisOpenMP.cpp
+G:\CppProjects\StructuralAnalysisOpenMP\StructuralAnalysisOpenMP.cpp(19,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\StructuralAnalysisOpenMP.cpp(19,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  StructuralAnalysisOpenMP.vcxproj -> G:\CppProjects\StructuralAnalysisOpenMP\x64\Debug\StructuralAnalysisOpenMP.exe

@@ -1,0 +1,72 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6993",
+          "message": {
+            "text": "Code analysis ignores OpenMP constructs; analyzing single-threaded code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/CppProjects/StructuralAnalysisOpenMP/StiffnessMatrixAssemblerOpenMP.cpp"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 9
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33141.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///G:/CppProjects/StructuralAnalysisOpenMP/StiffnessMatrixAssemblerOpenMP.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f5aea8a29a76b39ab02b52854298b7bcfa7df942d49849f02a92d06e41af42cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/stiffnessmatrixassembleropenmp.h"
+          },
+          "hashes": {
+            "sha-256": "29309cb9ead72185ddd679d7d0bf7bf69003638646f6555dfa9a86ba66f028ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/delaunaytriangulationopenmp.h"
+          },
+          "hashes": {
+            "sha-256": "dc11e6384d829572a4b50c14aee1c3b74d190905f3cb42592f97ece727140e89"
+          }
+        }
+      ]
+    }
+  ]
+}

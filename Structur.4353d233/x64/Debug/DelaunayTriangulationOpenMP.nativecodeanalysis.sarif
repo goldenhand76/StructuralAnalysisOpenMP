@@ -1,0 +1,64 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6993",
+          "message": {
+            "text": "Code analysis ignores OpenMP constructs; analyzing single-threaded code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/CppProjects/StructuralAnalysisOpenMP/DelaunayTriangulationOpenMP.cpp"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 9
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33141.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///G:/CppProjects/StructuralAnalysisOpenMP/DelaunayTriangulationOpenMP.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2c118b30d5b5815d13fbd8c01d34a991f5dadf009e0d7cd03b8b745f718340c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/cppprojects/structuralanalysisopenmp/delaunaytriangulationopenmp.h"
+          },
+          "hashes": {
+            "sha-256": "dc11e6384d829572a4b50c14aee1c3b74d190905f3cb42592f97ece727140e89"
+          }
+        }
+      ]
+    }
+  ]
+}
