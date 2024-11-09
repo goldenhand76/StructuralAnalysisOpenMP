@@ -70,6 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>G:\CppProjects\StructuralAnalysisOpenMP\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -128,19 +131,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BoundaryConditionsOpenMP.cpp" />
-    <ClCompile Include="DelaunayTriangulationOpenMP.cpp" />
-    <ClCompile Include="PostProcessorOpenMP.cpp" />
-    <ClCompile Include="SolverOpenMP.cpp" />
-    <ClCompile Include="StiffnessMatrixAssemblerOpenMP.cpp" />
-    <ClCompile Include="StructuralAnalysisOpenMP.cpp" />
+    <ClInclude Include="include\BoundaryConditionsOpenMP.h" />
+    <ClInclude Include="include\DelaunayTriangulationOpenMP.h" />
+    <ClInclude Include="include\PostProcessorOpenMP.h" />
+    <ClInclude Include="include\SolverOpenMP.h" />
+    <ClInclude Include="include\StiffnessMatrixAssemblerOpenMP.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BoundaryConditionsOpenMP.h" />
-    <ClInclude Include="DelaunayTriangulationOpenMP.h" />
-    <ClInclude Include="PostProcessorOpenMP.h" />
-    <ClInclude Include="SolverOpenMP.h" />
-    <ClInclude Include="StiffnessMatrixAssemblerOpenMP.h" />
+    <ClCompile Include="src\BoundaryConditionsOpenMP.cpp" />
+    <ClCompile Include="src\DelaunayTriangulationOpenMP.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\PostProcessorOpenMP.cpp" />
+    <ClCompile Include="src\SolverOpenMP.cpp" />
+    <ClCompile Include="src\StiffnessMatrixAssemblerOpenMP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,24 @@
-﻿  StructuralAnalysisOpenMP.cpp
-G:\CppProjects\StructuralAnalysisOpenMP\StructuralAnalysisOpenMP.cpp(19,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-G:\CppProjects\StructuralAnalysisOpenMP\StructuralAnalysisOpenMP.cpp(19,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+﻿  BoundaryConditionsOpenMP.cpp
+  DelaunayTriangulationOpenMP.cpp
+G:\CppProjects\StructuralAnalysisOpenMP\src\DelaunayTriangulationOpenMP.cpp(27,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\DelaunayTriangulationOpenMP.cpp(61,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\DelaunayTriangulationOpenMP.cpp(67,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\DelaunayTriangulationOpenMP.cpp(88,13): warning C4849: OpenMP 'collapse' clause ignored in 'parallel for' directive
+G:\CppProjects\StructuralAnalysisOpenMP\src\DelaunayTriangulationOpenMP.cpp(141,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\DelaunayTriangulationOpenMP.cpp(191,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\DelaunayTriangulationOpenMP.cpp(193,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+G:\CppProjects\StructuralAnalysisOpenMP\src\main.cpp(19,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\main.cpp(19,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PostProcessorOpenMP.cpp
+G:\CppProjects\StructuralAnalysisOpenMP\src\PostProcessorOpenMP.cpp(18,17): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\PostProcessorOpenMP.cpp(18,37): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\PostProcessorOpenMP.cpp(19,17): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\PostProcessorOpenMP.cpp(19,37): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\PostProcessorOpenMP.cpp(20,17): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+G:\CppProjects\StructuralAnalysisOpenMP\src\PostProcessorOpenMP.cpp(20,37): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  SolverOpenMP.cpp
+G:\CppProjects\StructuralAnalysisOpenMP\src\SolverOpenMP.cpp(9,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  StiffnessMatrixAssemblerOpenMP.cpp
+  Generating Code...
   StructuralAnalysisOpenMP.vcxproj -> G:\CppProjects\StructuralAnalysisOpenMP\x64\Debug\StructuralAnalysisOpenMP.exe
